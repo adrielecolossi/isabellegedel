@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/isabellegedel/static/css/main.4acc7181.css",
+    "main.js": "/isabellegedel/static/js/main.a2db9862.js",
+    "static/js/787.45dc376c.chunk.js": "/isabellegedel/static/js/787.45dc376c.chunk.js",
+    "static/media/carousel-6.png": "/isabellegedel/static/media/carousel-6.ea0bfdcc0c56d951a5f8.png",
+    "static/media/servicos-1.png": "/isabellegedel/static/media/servicos-1.6f657c5541f30f183d0c.png",
+    "static/media/carousel-2.png": "/isabellegedel/static/media/carousel-2.a5caa6ed8430f78a2618.png",
+    "static/media/servicos-3.png": "/isabellegedel/static/media/servicos-3.9504601bc646cd980453.png",
+    "static/media/carousel-1.png": "/isabellegedel/static/media/carousel-1.a0b3b85895f358e07ec2.png",
+    "static/media/carousel-3.png": "/isabellegedel/static/media/carousel-3.12b8866566e9527687cd.png",
+    "static/media/servicos-2.png": "/isabellegedel/static/media/servicos-2.ea17c055a7e49b8e0665.png",
+    "static/media/carousel-4.png": "/isabellegedel/static/media/carousel-4.4ff601a6933bed7952a8.png",
+    "static/media/carousel-8.png": "/isabellegedel/static/media/carousel-8.bc5d906ae9cf292e8ed1.png",
+    "static/media/servicos-4.png": "/isabellegedel/static/media/servicos-4.1a055552050f273d0bf4.png",
+    "static/media/carousel-7.png": "/isabellegedel/static/media/carousel-7.c135fa1f23e3bb684ffe.png",
+    "static/media/carousel-5.png": "/isabellegedel/static/media/carousel-5.19765a65afd922b60715.png",
+    "static/media/header.png": "/isabellegedel/static/media/header.69cd5ad729ffb3ca7a83.png",
+    "static/media/marker-icon.png": "/isabellegedel/static/media/marker-icon.8cd746d81154d7f315fc.png",
+    "index.html": "/isabellegedel/index.html",
+    "main.4acc7181.css.map": "/isabellegedel/static/css/main.4acc7181.css.map",
+    "main.a2db9862.js.map": "/isabellegedel/static/js/main.a2db9862.js.map",
+    "787.45dc376c.chunk.js.map": "/isabellegedel/static/js/787.45dc376c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4acc7181.css",
+    "static/js/main.a2db9862.js"
+  ]
+}

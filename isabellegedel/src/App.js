@@ -4,7 +4,21 @@ import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 import Leaflet from "leaflet"
 import "leaflet/dist/leaflet.css" 
 import { MapContainer, TileLayer, Marker, Popup, useMapEvents } from "react-leaflet"
-import markerIcon from "leaflet/dist/images/marker-icon.png"
+//import markerIcon from "leaflet/dist/images/marker-icon.png"
+import markerIcon from "./images/marker-icon.png"
+import capa from "./images/header.png"
+import carousel1 from "./images/carousel-1.png"
+import carousel2 from "./images/carousel-2.png"
+import carousel3 from "./images/carousel-3.png"
+import carousel4 from "./images/carousel-4.png"
+import carousel5 from "./images/carousel-5.png"
+import carousel6 from "./images/carousel-6.png"
+import carousel7 from "./images/carousel-7.png"
+import carousel8 from "./images/carousel-8.png"
+import servicos1 from './images/servicos-1.png'
+import servicos2 from './images/servicos-2.png'
+import servicos3 from './images/servicos-3.png'
+import servicos4 from './images/servicos-4.png'
 import markerShadow from "leaflet/dist/images/marker-shadow.png"
 import markerRetina from "leaflet/dist/images/marker-icon-2x.png"
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -19,8 +33,8 @@ import "swiper/css/effect-fade";
 import { EffectCreative, EffectFade} from "swiper";
 
 Leaflet.Icon.Default.mergeOptions({
-  iconRetinaUrl: markerRetina,
-  iconUrl: '/images/marker-icon.png',
+  iconRetinaUrl: require("./images/marker-icon.png"),
+  iconUrl: require("./images/marker-icon.png"),
   iconSize:     [45, 45],
   shadowSize:   [50, 64], // size of the shado
     shadowAnchor: [4, 62],
@@ -95,7 +109,7 @@ const MarkerContent = (props) => {
 
   return(<>
     <header>
-      <img src={"images/header.png"} alt="Isabelle Gedel - Capa"/>
+      <img src={capa} alt="Isabelle Gedel - Capa"/>
     </header>
    <div className="reviews">
       <div className="reviews-texto">
@@ -120,40 +134,40 @@ const MarkerContent = (props) => {
         effect={"fade"}      
 
     >
-      <SwiperSlide className="slide"><img src={"images/carousel-1.png"} alt="Slider 1"/></SwiperSlide>
-      <SwiperSlide className="slide"><img src={"images/carousel-2.png"} alt="Slider 2"/></SwiperSlide>
-      <SwiperSlide className="slide"><img src={"images/carousel-3.png"} alt="Slider 3"/></SwiperSlide>
-      <SwiperSlide className="slide"><img src={"images/carousel-4.png"} alt="Slider 4"/></SwiperSlide>
-      <SwiperSlide className="slide"><img src={"images/carousel-5.png"} alt="Slider 5"/></SwiperSlide>
-      <SwiperSlide className="slide"><img src={"images/carousel-6.png"} alt="Slider 6"/></SwiperSlide>
-      <SwiperSlide className="slide"><img src={"images/carousel-7.png"} alt="Slider 7"/></SwiperSlide>
-      <SwiperSlide className="slide"><img src={"images/carousel-8.png"} alt="Slider 8"/></SwiperSlide>
+      <SwiperSlide className="slide"><img src={carousel1} alt="Slider 1"/></SwiperSlide>
+      <SwiperSlide className="slide"><img src={carousel2} alt="Slider 2"/></SwiperSlide>
+      <SwiperSlide className="slide"><img src={carousel3} alt="Slider 3"/></SwiperSlide>
+      <SwiperSlide className="slide"><img src={carousel4} alt="Slider 4"/></SwiperSlide>
+      <SwiperSlide className="slide"><img src={carousel5} alt="Slider 5"/></SwiperSlide>
+      <SwiperSlide className="slide"><img src={carousel6} alt="Slider 6"/></SwiperSlide>
+      <SwiperSlide className="slide"><img src={carousel7} alt="Slider 7"/></SwiperSlide>
+      <SwiperSlide className="slide"><img src={carousel8} alt="Slider 8"/></SwiperSlide>
     </Swiper>
     </div>
     </div>
     <div className="servicos">
       <div className="servico">
-      <img src={"images/servicos-1.png"} alt="Serviço de maquiagem"/>
+      <img src={servicos1} alt="Serviço de maquiagem"/>
       <div className="text-servico">
       <p>Maquiagem</p>
       </div>
       </div>
       
       <div className="servico">
-      <img src={"images/servicos-2.png"} alt="Serviço de dermaplaning"/>
+      <img src={servicos2} alt="Serviço de dermaplaning"/>
       <div className="text-servico">
       <p>Dermaplaning</p>
       </div>
       </div>
       <div className="servico">
-      <img src={"images/servicos-3.png"} alt="Serviço de microblanding"/>
+      <img src={servicos3} alt="Serviço de microblanding"/>
       <div className="text-servico">
       <p>Microblanding</p>
       </div>
       </div>
 
       <div className="servico">
-      <img src={"images/servicos-4.png"} alt="Serviço de limpeza de pele"/>
+      <img src={servicos4} alt="Serviço de limpeza de pele"/>
       <div className="text-servico">
       <p>Limpeza de pele</p>
        </div>

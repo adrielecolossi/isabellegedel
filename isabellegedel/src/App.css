@@ -81,8 +81,8 @@ width: 100%;
 
 }
 .servico img{
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
 object-fit: cover;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
 }
@@ -223,13 +223,6 @@ margin-top: 25%;
   }
 }
 
-@media  (max-width: 900px)  and  (min-width: 794px)  {
-  
-  .text-servico{
-  
-    padding: 6%;
-}
-}
 
 @media  (max-width: 1000px) and (min-width: 900px)  {
  
@@ -465,6 +458,28 @@ margin-top: 25%;
 
 }
 
+@media (min-width: 1000px) and (max-width:1635px) {
+ 
+  #reviews-texto-2{
+    margin-top: 10%;
+    margin-bottom:6%;
+    margin-left: 25%;
+    width: 50%;
+    }
+
+  .servico img{
+    width: 250px;
+    height: 250px;
+  }
+  footer{
+    background: #8E4162;
+    width: 90%;
+    font-size: 1.3em;
+  
+  }
+  
+
+}
 
 @media (min-width: 764px) and (max-width:900px) {
   header{
@@ -486,7 +501,7 @@ margin-top: 25%;
       width: 82%;
       padding: 2%;
       color: white;
-      font-size: 1.2em;
+      font-size: 1em;
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
       }
 
@@ -498,21 +513,26 @@ margin-top: 25%;
         }
 
         .servicos p{
-          font-size: 1em;
+          font-size: 0.8em;
         }
         .servico{
           margin-bottom: 5%;
-          width: 50%
+          width: 50%;
+          margin-left: 0%;
+        }
+
+        .text-servico{
+          width: 30%
         }
         .servicos{
-          width:90%;
+          width:100%;
     
   
         }
 
         .servico img{
-          width: 170px;
-          height: 170px;
+          width: 300px;
+          height: 300px;
         object-fit: cover;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
         }
@@ -528,8 +548,4 @@ margin-top: 25%;
         .contatos p{
           font-size: 0.6em;
         }
-
- .servico{
-margin-left: 1%;
- }
 }

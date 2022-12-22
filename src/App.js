@@ -208,7 +208,7 @@ const MarkerContent = (props) => {
           </a>  
           <a className='link-contato' href="https://api.whatsapp.com/send?phone=555384692101&text=Olá, gostaria de um atendimento!"> <AiOutlineWhatsApp></AiOutlineWhatsApp> &nbsp;+55 (53) 98469-2101</a>
 
-            <p>Desevolvido por Adriele Colossi</p>
+            <p>Desenvolvido por Adriele Colossi</p>
       </div>
       <a id="link-agendamento" href="https://api.whatsapp.com/send?phone=555384692101&text=Olá, gostaria de um atendimento!">Agende seu atendimento!</a>
 

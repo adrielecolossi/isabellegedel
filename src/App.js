@@ -106,6 +106,7 @@ const MarkerContent = (props) => {
 
 
   return(<>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"></link>
     <header>
       <img src={capa} alt="Isabelle Gedel - Capa"/>
     </header>

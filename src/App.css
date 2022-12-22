@@ -1,7 +1,7 @@
 
 header{
   margin: auto;
-  width: 45%;
+  width: 55%;
   margin-bottom: 3%;
   margin-top: 1.6%;
 }
@@ -12,7 +12,7 @@ header img{
   filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
 }
 .reviews {
-  width: 45%;
+  width: 55%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 #reviews-texto-2{
 margin-top: 10%;
 margin-bottom:6%;
-margin-left: 40%;
+margin-left: 35%;
 width: 50%;
 }
 .reviews-carrossel{
@@ -52,7 +52,7 @@ width: 100%;
 }
 
 .servicos{
-  width: 58%;
+  width:70%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -81,19 +81,19 @@ width: 100%;
 
 }
 .servico img{
-  width: 300px;
-  height: 300px;
+  width: 360px;
+  height: 360px;
 object-fit: cover;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
 }
 .MapContainer{
-  width: 45%;
+  width: 100%;
   margin: 0 auto;
 }
 
 footer{
   background: #8E4162;
-  width: 45%;
+  width: 55%;
   margin: 0 auto;
   display: flex;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -144,13 +144,13 @@ margin-top: 25%;
 {
   header{
     margin: auto;
-    width: 90%;
+    width: 55%;
     margin-bottom: 3%;
     margin-top: 1.6%;
   }
 
   .reviews {
-    width: 90%;
+    width: 55%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -173,7 +173,7 @@ margin-top: 25%;
         }
 
         .servicos{
-          width: 90%;
+          width: 55%;
           margin: 0 auto;
         }
         .servico{
@@ -197,7 +197,7 @@ margin-top: 25%;
         }
         footer{
           background: #8E4162;
-          width: 90%;
+          width: 55%;
           font-size: 0.9em;
           padding: 1%;
           margin-top: 5%;
@@ -228,13 +228,13 @@ margin-top: 25%;
  
   header{
     margin: auto;
-    width: 90%;
+    width: 55%;
     margin-bottom: 3%;
     margin-top: 1.6%;
   }
 
   .reviews {
-    width: 90%;
+    width: 55%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -251,12 +251,12 @@ margin-top: 25%;
 
   
         .servico img{
-          width: 250px;
-          height: 250px;
+          width: 200px;
+          height: 200px;
         }
         footer{
           background: #8E4162;
-          width: 90%;
+          width: 55%;
           font-size: 1.3em;
         
         }
@@ -265,7 +265,7 @@ margin-top: 25%;
           font-size: 0.9em;
         }
 }
-@media (min-width: 270px) and (max-width:420px) {
+@media (min-width: 100px) and (max-width:420px) {
   header{
     margin: auto;
     width: 90%;
@@ -493,13 +493,13 @@ margin-top: 25%;
 @media (min-width: 764px) and (max-width:900px) {
   header{
     margin: auto;
-    width: 45%;
+    width: 55%;
     margin-bottom: 3%;
     margin-top: 1.6%;
   }
 
   .reviews {
-    width: 45%;
+    width: 55%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -534,20 +534,20 @@ margin-top: 25%;
           width: 30%
         }
         .servicos{
-          width:100%;
+          width:58%;
     
   
         }
 
         .servico img{
-          width: 300px;
-          height: 300px;
+          width: 150px;
+          height: 150px;
         object-fit: cover;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
         }
         footer{
           background: #8E4162;
-          width: 90%;
+          width: 55%;
           font-size: 0.9em;
           padding: 1%;
           margin-top: 5%;

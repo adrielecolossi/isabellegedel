@@ -1,11 +1,10 @@
 import "./App.css";
 import {useRef, useState} from 'react';
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
+import { Navigation, Pagination, Autoplay } from 'swiper';
 import Leaflet from "leaflet"
 import "leaflet/dist/leaflet.css" 
 import { MapContainer, TileLayer, Marker, Popup, useMapEvents } from "react-leaflet"
 //import markerIcon from "leaflet/dist/images/marker-icon.png"
-import markerIcon from "./images/marker-icon.png"
 import capa from "./images/header.png"
 import carousel1 from "./images/carousel-1.png"
 import carousel2 from "./images/carousel-2.png"
@@ -20,7 +19,6 @@ import servicos2 from './images/servicos-2.png'
 import servicos3 from './images/servicos-3.png'
 import servicos4 from './images/servicos-4.png'
 import markerShadow from "leaflet/dist/images/marker-shadow.png"
-import markerRetina from "leaflet/dist/images/marker-icon-2x.png"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {AiOutlineInstagram, AiOutlineWhatsApp} from "react-icons/ai";
 // Import Swiper styles
@@ -47,7 +45,7 @@ function App(){
   const mapRef = useRef();
   const zoom = 20;
   const containerStyle = {
-      width: "45%",
+      width: "55%",
       height: "200px"
   }
   const center = {
@@ -207,11 +205,11 @@ const MarkerContent = (props) => {
             <AiOutlineInstagram></AiOutlineInstagram> &nbsp;
             @isabellegedel
           </a>  
-          <a className='link-contato' href="https://api.whatsapp.com/send?phone=555384692101&text=Olá,20%gostaria20%de20%um20%20%atendimento20%"> <AiOutlineWhatsApp></AiOutlineWhatsApp> &nbsp;+55 (53) 98469-2101</a>
+          <a className='link-contato' href="https://api.whatsapp.com/send?phone=555384692101&text=Olá, gostaria de um atendimento!"> <AiOutlineWhatsApp></AiOutlineWhatsApp> &nbsp;+55 (53) 98469-2101</a>
 
             <p>Desevolvido por Adriele Colossi</p>
       </div>
-      <a id="link-agendamento" href="https://api.whatsapp.com/send?phone=555384692101&text=Olá,20%gostaria20%de20%um20%20%atendimento20%">Agende seu atendimento!</a>
+      <a id="link-agendamento" href="https://api.whatsapp.com/send?phone=555384692101&text=Olá, gostaria de um atendimento!">Agende seu atendimento!</a>
 
     </footer>
       </>)

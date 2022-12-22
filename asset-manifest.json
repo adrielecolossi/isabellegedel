@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/isabellegedel/static/css/main.4acc7181.css",
+    "main.css": "/isabellegedel/static/css/main.ff1f950f.css",
     "main.js": "/isabellegedel/static/js/main.e818aa95.js",
     "static/js/787.45dc376c.chunk.js": "/isabellegedel/static/js/787.45dc376c.chunk.js",
     "static/media/carousel-6.png": "/isabellegedel/static/media/carousel-6.ea0bfdcc0c56d951a5f8.png",
@@ -18,12 +18,12 @@
     "static/media/header.png": "/isabellegedel/static/media/header.69cd5ad729ffb3ca7a83.png",
     "static/media/marker-icon.png": "/isabellegedel/static/media/marker-icon.8cd746d81154d7f315fc.png",
     "index.html": "/isabellegedel/index.html",
-    "main.4acc7181.css.map": "/isabellegedel/static/css/main.4acc7181.css.map",
+    "main.ff1f950f.css.map": "/isabellegedel/static/css/main.ff1f950f.css.map",
     "main.e818aa95.js.map": "/isabellegedel/static/js/main.e818aa95.js.map",
     "787.45dc376c.chunk.js.map": "/isabellegedel/static/js/787.45dc376c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4acc7181.css",
+    "static/css/main.ff1f950f.css",
     "static/js/main.e818aa95.js"
   ]
 }

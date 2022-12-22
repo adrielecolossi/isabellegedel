@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/isabellegedel/static/css/main.91e7d420.css",
+    "main.js": "/isabellegedel/static/js/main.70065cd2.js",
+    "static/js/787.45dc376c.chunk.js": "/isabellegedel/static/js/787.45dc376c.chunk.js",
+    "index.html": "/isabellegedel/index.html",
+    "main.91e7d420.css.map": "/isabellegedel/static/css/main.91e7d420.css.map",
+    "main.70065cd2.js.map": "/isabellegedel/static/js/main.70065cd2.js.map",
+    "787.45dc376c.chunk.js.map": "/isabellegedel/static/js/787.45dc376c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91e7d420.css",
+    "static/js/main.70065cd2.js"
+  ]
+}

@@ -1,0 +1,22 @@
+  const radios= [ useRef(document.getElementById('radio1')), useRef(document.getElementById('radio2'))]
+  /*
+  const radio1 = useRef(document.getElementById('radio1'));
+  const radio2 = useRef(document.getElementById('radio2'));
+console.log(radio1.current.checked)
+*/
+
+
+
+  useEffect(() => {
+    let counter = 1;
+    const interval = setInterval(() => {
+   radios[counter-1].current.checked=true;
+      //console.log(radios[counter-1].current.checked)
+    counter++;
+    if(counter > 2){
+      counter = 1;
+    }
+    }, 3000);
+   return () => clearInterval(interval);  
+
+  }, []);

@@ -33,8 +33,8 @@ import "swiper/css/effect-fade";
 import { EffectCreative, EffectFade} from "swiper";
 
 Leaflet.Icon.Default.mergeOptions({
-  iconRetinaUrl: markerIcon,
-  iconUrl: markerIcon,
+  iconRetinaUrl: require("./images/marker-icon.png"),
+  iconUrl: require("./images/marker-icon.png"),
   iconSize:     [45, 45],
   shadowSize:   [50, 64], // size of the shado
     shadowAnchor: [4, 62],

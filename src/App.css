@@ -1,38 +1,551 @@
-.App {
-  text-align: center;
+
+header{
+  margin: auto;
+  width: 45%;
+  margin-bottom: 3%;
+  margin-top: 1.6%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header img{
+  width: 100%;
+  margin: auto;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.reviews {
+  width: 45%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  }
+
+.reviews-texto{
+background-color: rgba(142, 65, 98, 1);
+width: 82%;
+padding: 2%;
+color: white;
+font-size: 1.3em;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#reviews-texto-1{
+  margin-top: 4%;
+  margin-left: 5%;
+  width: 50%;
+  }
+  
+#reviews-texto-2{
+margin-top: 10%;
+margin-bottom:6%;
+margin-left: 40%;
+width: 50%;
+}
+.reviews-carrossel{
+
+margin-top: -23%;
+margin-left: 70%;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+margin-bottom: 6%;
+}
+
+.slide img{
+width: 100%;
+}
+
+.servicos{
+  width: 58%;
+  margin: 0 auto;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.servico{
+  margin:0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-bottom: 7%;
+}
+
+.text-servico{
+
+  background-color: #F9C9C7;
+  width: 50%;
+  padding: 3%;
+  margin-top: -10%;
+  z-index: 1;
+
+}
+.servico img{
+  width: 300px;
+  height: 300px;
+object-fit: cover;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
+}
+.MapContainer{
+  width: 45%;
+  margin: 0 auto;
+}
+
+footer{
+  background: #8E4162;
+  width: 45%;
+  margin: 0 auto;
+  display: flex;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+  padding: 1%;
+  margin-top: 5%;
 }
 
-.App-link {
-  color: #61dafb;
+a{
+  color: white;
+  text-decoration:none;
+
+}
+.link-contato{
+  color: white;
+  text-decoration:none;
+  transition: all .2s ease-in-out;
+  margin-right: 5%;
+  width: 100%;
+  margin-top: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.contatos p{
+  font-size: 0.7em;
+margin-top: 25%;
+}
+
+.link-contato:hover{
+  transform: scale(1.1); 
+}
+.contatos{
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+#link-agendamento{
+  margin-right: 5%;
+}
+
+@media (min-width: 915px) and (max-width: 1000px)
+{
+  header{
+    margin: auto;
+    width: 90%;
+    margin-bottom: 3%;
+    margin-top: 1.6%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .reviews {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .reviews-texto{
+      background-color: rgba(142, 65, 98, 1);
+      width: 82%;
+      padding: 2%;
+      color: white;
+      font-size: 3em;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      }
+
+      #reviews-texto-2{
+        margin-top: 10%;
+        margin-bottom:6%;
+        margin-left: 30%;
+        width: 50%;
+        }
+
+        .servicos{
+          width: 90%;
+          margin: 0 auto;
+        }
+        .servico{
+          margin:0;
+          width: 50%;
+          margin-bottom: 7%;
+        }
+        
+        .text-servico{
+        
+          background-color: #F9C9C7;
+
+          padding: 3%;
+          margin-top: -12%;
+          z-index: 1;
+        
+        }
+        .servico img{
+          width: 100px;
+          height: 100px;
+        }
+        footer{
+          background: #8E4162;
+          width: 90%;
+          font-size: 0.9em;
+          padding: 1%;
+          margin-top: 5%;
+        }
+      
+        
+        .contatos p{
+          font-size: 0.7em;
+        }
+        
+}
+@media (min-width: 600px) {
+  .reviews-texto{
+    font-size: 1.2em;
+  
+    }
+  footer{
+    font-size: 1.2em;
+ 
   }
+  .contatos p{
+    font-size: 0.9em;
+  }
+}
+
+
+@media  (max-width: 1000px) and (min-width: 900px)  {
+ 
+  header{
+    margin: auto;
+    width: 90%;
+    margin-bottom: 3%;
+    margin-top: 1.6%;
+  }
+
+  .reviews {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .reviews-texto{
+      background-color: rgba(142, 65, 98, 1);
+      width: 75%;
+      padding: 2%;
+      color: white;
+      font-size: 1.3em;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      }
+
+  
+        .servico img{
+          width: 250px;
+          height: 250px;
+        }
+        footer{
+          background: #8E4162;
+          width: 90%;
+          font-size: 1.3em;
+        
+        }
+  
+        .contatos p{
+          font-size: 0.9em;
+        }
+}
+@media (min-width: 270px) and (max-width:420px) {
+  header{
+    margin: auto;
+    width: 90%;
+    margin-bottom: 3%;
+    margin-top: 1.6%;
+  }
+
+  .reviews {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .reviews-texto{
+      background-color: rgba(142, 65, 98, 1);
+      width: 82%;
+      padding: 2%;
+      color: white;
+      font-size: 0.5em;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      }
+
+      #reviews-texto-2{
+        margin-top: 10%;
+        margin-bottom:6%;
+        margin-left: 30%;
+        width: 50%;
+        }
+
+        .servicos p{
+          font-size: 0.5em;
+        }
+        .servico{
+          margin-bottom: 5%;
+          width: 70%;
+        }
+        
+
+        .servico img{
+          width: 100px;
+          height: 100px;
+        object-fit: cover;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
+        }
+        footer{
+          background: #8E4162;
+          width: 90%;
+          font-size: 0.7em;
+          padding: 1%;
+          margin-top: 5%;
+        }
+  
+
+        .contatos p{
+          font-size: 0.5em;
+        }
+        
+}
+
+@media (min-width: 360px) and (max-width:560px) {
+  header{
+    margin: auto;
+    width: 90%;
+    margin-bottom: 3%;
+    margin-top: 1.6%;
+  }
+
+  .reviews {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .reviews-texto{
+      background-color: rgba(142, 65, 98, 1);
+      width: 82%;
+      padding: 2%;
+      color: white;
+      font-size: 0.8em;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      }
+
+      #reviews-texto-2{
+        margin-top: 10%;
+        margin-bottom:6%;
+        margin-left: 30%;
+        width: 50%;
+        }
+
+        .servicos p{
+          font-size: 0.6em;
+        }
+        .servico{
+          margin-bottom: 5%;
+          width: 50%
+        }
+        .servicos{
+          width:90%;
+    
+  
+        }
+
+        .servico img{
+          width: 120px;
+          height: 120px;
+        object-fit: cover;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
+        }
+        footer{
+          background: #8E4162;
+          width: 90%;
+          font-size: 0.9em;
+          padding: 1%;
+          margin-top: 5%;
+        }
+  
+
+        .contatos p{
+          font-size: 0.6em;
+        }
+
+
+}
+
+@media (min-width: 560px) and (max-width:764px) {
+  header{
+    margin: auto;
+    width: 90%;
+    margin-bottom: 3%;
+    margin-top: 1.6%;
+  }
+
+  .reviews {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .reviews-texto{
+      background-color: rgba(142, 65, 98, 1);
+      width: 82%;
+      padding: 2%;
+      color: white;
+      font-size: 0.8em;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      }
+
+      #reviews-texto-2{
+        margin-top: 10%;
+        margin-bottom:6%;
+        margin-left: 30%;
+        width: 50%;
+        }
+
+        .servicos p{
+          font-size: 0.6em;
+        }
+        .servico{
+          margin-bottom: 5%;
+          width: 50%
+        }
+        .servicos{
+          width:90%;
+    
+  
+        }
+
+        .servico img{
+          width: 170px;
+          height: 170px;
+        object-fit: cover;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
+        }
+        footer{
+          background: #8E4162;
+          width: 90%;
+          font-size: 0.9em;
+          padding: 1%;
+          margin-top: 5%;
+        }
+  
+
+        .contatos p{
+          font-size: 0.6em;
+        }
+
+
+}
+
+@media (min-width: 1000px) and (max-width:1635px) {
+ 
+  #reviews-texto-2{
+    margin-top: 10%;
+    margin-bottom:6%;
+    margin-left: 25%;
+    width: 50%;
+    }
+
+  .servico img{
+    width: 250px;
+    height: 250px;
+  }
+  footer{
+    background: #8E4162;
+    width: 90%;
+    font-size: 1.3em;
+  
+  }
+  
+
+}
+
+@media (min-width: 764px) and (max-width:900px) {
+  header{
+    margin: auto;
+    width: 45%;
+    margin-bottom: 3%;
+    margin-top: 1.6%;
+  }
+
+  .reviews {
+    width: 45%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .reviews-texto{
+      background-color: rgba(142, 65, 98, 1);
+      width: 82%;
+      padding: 2%;
+      color: white;
+      font-size: 1em;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      }
+
+      #reviews-texto-2{
+        margin-top: 10%;
+        margin-bottom:6%;
+        margin-left: 30%;
+        width: 50%;
+        }
+
+        .servicos p{
+          font-size: 0.8em;
+        }
+        .servico{
+          margin-bottom: 5%;
+          width: 50%;
+          margin-left: 0%;
+        }
+
+        .text-servico{
+          width: 30%
+        }
+        .servicos{
+          width:100%;
+    
+  
+        }
+
+        .servico img{
+          width: 300px;
+          height: 300px;
+        object-fit: cover;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
+        }
+        footer{
+          background: #8E4162;
+          width: 90%;
+          font-size: 0.9em;
+          padding: 1%;
+          margin-top: 5%;
+        }
+  
+
+        .contatos p{
+          font-size: 0.6em;
+        }
 }
